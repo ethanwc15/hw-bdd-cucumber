@@ -52,5 +52,5 @@ Then /I should see all the movies/ do |n_seeds|
   # Make sure that all the movies in the app are visible in the table
   #Grabbing the movies from the table body, which is where all the movies lay
   numberOfMovies = page.all('table#movies tbody tr').count
-  #fail "Unimplemented"
+  fail "Unimplemented"
 end
